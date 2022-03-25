@@ -1,476 +1,493 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Dosis:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Dosis:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Signika:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/com.css">
 
-  <link rel="stylesheet" href="./assets/css/com.css">
+    <!-- Título da Página -->
+    <title>Protocolo Zero Barriga</title>
+    
+    <style type="text/css">
+      header {
+        color: white;
+        background-image: url("assets/img/bg.jpeg");
+        background-color: rgba(0, 0, 0, 0.6);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: darken;
+      }
+    </style>
+    
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '671840113939919');
+      fbq('init', '902207957134621');
+      fbq('init', '1060746161440914');
+      fbq('init', '649325786402999');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=671840113939919&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    
+  </head>
+  <body>
+    
+    <header class="py-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <!-- Imagem Ultrasecreto -->
+            <img class="img-fluid" src="./assets/img/ultrasecreto.svg">
 
-  <!-- Título da Página -->
-  <title>Protocolo Zero Barriga</title>
+            <!-- Headline -->
+            <h3 class="my-4"><b>6 ingredientes Simples Que Fazem O Corpo Queimar Até 13Kg Em 30 Dias</b></h3>
 
-  <style type="text/css">
-    body {
-      color: white;
-      background-image: url("assets/img/bg.jpeg");
-      background-color: rgba(0, 0, 0, 0.6);
-      background-position: center;
-      background-size: cover;
-      background-attachment: fixed;
-      background-blend-mode: darken;
-    }
-  </style>
+            <!-- VSL -->
+            <script type="text/javascript" id="scr_6237b91d96ef4b00092627d6">var s=document.createElement("script");s.src="https://cdn.converteai.net/89146a0c-1f91-42fa-8a5b-d6a66abccb0f/players/6237b91d96ef4b00092627d6/player.js",s.async=!0,document.head.appendChild(s);</script>
 
-  <style class=sf-hidden>
-    #fakecomments {
-      max-width: 736px;
-      background-color: #F6F7F9;
-      border: 1px solid #DFE0E4;
-      max-height: 512px;
-      overflow: scroll;
-      font-family: Helvetica, Arial, sans-serif;
-      font-size: 12px;
-      text-align: left
-    }
-
-    #fakecomments .fakerow .fakename {
-      color: #365899;
-      font-weight: bold;
-      vertical-align: top;
-      cursor: pointer
-    }
-
-    #fakecomments .indentar {
-      margin-left: 74px
-    }
-
-    #fakecomments .clearboth {
-      clear: both
-    }
-
-    #fakecomments .fakerow .faketext {
-      color: #1D2129;
-      line-height: 1.34
-    }
-
-    #fakecomments .fakerow .fakephoto {
-      float: left;
-      margin-right: 8px;
-      cursor: pointer;
-      width: 64px
-    }
-
-    #fakecomments .fakerow .fakephoto img {
-      width: 64px
-    }
-
-    #fakecomments .indentar .fakephoto,
-    #fakecomments .indentar .fakephoto img {
-      width: 32px !important
-    }
-
-    #fakecomments .fakecontent {
-      margin: 12px
-    }
-
-    #fakecomments .fakecontent .fakerow {
-      margin-bottom: 12px
-    }
-
-   
-
-    #fakecomments .fakerow .fakedata {
-      color: #9C94A1;
-      padding-top: 4px
-    }
-
-    #fakecomments .fakerow .fakemaisantigos {
-      color: #616499 !important;
-      text-decoration: underline;
-      cursor: pointer
-    }
-
-    #fakecomments .fakerow .fakecurtir {
-      color: #6C7AC0;
-      text-decoration: none;
-      cursor: pointer
-    }
-
-    #fakecomments .fakerow .fakeright {
-      padding-left: 74px
-    }
-
-    #fakecomments .indentar .fakeright {
-      padding-left: 40px !important
-    }
-
-    #fakecomments .redondo {
-      border-radius: 50%
-    }
-  </style>
-
-</head>
-
-<body>
-
-  <header class="py-4">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <!-- Imagem Ultrasecreto -->
-          <img class="img-fluid" src="./assets/img/ultrasecreto.svg">
-
-          <!-- DERRETE MUITA GORDURA: Simples Vitamina de 6 Ingredientes deixa Cientistas Chocados -->
-          <!-- Headline -->
-          <h3 class="my-4"><b>DERRETE BASTANTE GORDURA: </b>Simples Vitamina de 6 Ingredientes deixa Chocados o Mundo
-            Científico</h3>
-
-          <h5 style="font-size: 15px;" class="my-4"><b><img src="./assets/img/icone-seta-pra-baixo.svg">Veja o vídeo</b>
-            e entenda tudo até o Final<img src="./assets/img/icone-seta-pra-baixo.svg"></h5>
-
-          <!-- VSL -->
-          <script type="text/javascript"
-            id="scr_6237b91d96ef4b00092627d6">var s = document.createElement("script"); s.src = "https://cdn.converteai.net/89146a0c-1f91-42fa-8a5b-d6a66abccb0f/players/6237b91d96ef4b00092627d6/player.js", s.async = !0, document.head.appendChild(s);</script>
-
-          <!-- Botão INICIO -->
-          <div id="cta1" class="mt-4 d-none">
-            <a href="https://pay.kiwify.com.br/d4lpygD" class="a-btn" style="text-decoration: none;">
-              <span class="span-btn">QUERO OBTER ACESSO!</span>
-              <span class="span-btn2">(atenção: vagas limitadas)</span>
-            </a>
-
-            <!-- Imagem de compra segura-->
-            <div class="compra-segura" style="margin-top: 14px;">
-              <img width="435" height="52" src="assets/img/compra-segura.png" class="attachment-large size-large" alt=""
-                loading="lazy" srcset="assets/img/compra-segura.png 435w, assets/img/compra-segura.png 300w"
-                sizes="(max-width: 435px) 100vw, 435px" style="width:100%;height:11.95%;max-width:435px">
+            <!-- Botão 1 -->
+            <div id="cta1" class="mt-4 d-none">
+              <a href="https://pay.kiwify.com.br/d4lpygD" class="a-btn" style="text-decoration: none;">
+                <span class="span-btn">QUERO OBTER ACESSO!</span>
+                <span class="span-btn2">(atenção: vagas limitadas)</span>
+              </a>
             </div>
-
-            <div style="margin-top: 29px; text-align: center;">
-              <div id=fakecomments>
-                <div class=fakecontent>
-
-                  <div class=fakerow>
-                    <span class=fakemaisantigos> Ver comentários mais Antigos</span>
-                  </div>
-                  <div class="fakerow1 fakerow display_none clearboth"
-                    style="background-color:rgb(246,247,249);display:block;transition:all 1.5s ease 0s">
-                    <div class=fakephoto><img
-                        src="data:image/jpeg;base64,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"
-                        class=redondo></div>
-                    <div class=fakeright>
-                      <span class=fakename>Luciana disse:</span> <span class=faketext>Feliiiiz demais!!! Mt obrigada por
-                        me
-                        mostrar esse video, eu achava que não ia funcionar.. Mas
-                        essa dica do final do vídeo mudou completamente meu
-                        corpo e minha saúde, muito obrigadaa!!
-                        😍&nbsp;😍&nbsp;😍</span><br>
-                      <span class=fakecurtir>Compartilhar · </span> <span class=fakelike>13</span> <span
-                        class=fakeheart>20</span>
-                      <span class=fakeuau>15</span> <span class=fakedata>· enviado
-                        dia <span class=datanow>20/03/2022
-                          18:02:27</span></span>
-                    </div>
-                  </div>
-                  <div class="fakerow2 fakerow display_none clearboth"
-                    style="background-color:rgb(246,247,249);display:block;transition:all 1.5s ease 0s">
-                    <div class=fakephoto><img
-                        src="data:image/jpeg;base64,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"
-                        class=redondo></div>
-                    <div class=fakeright>
-                      <span class=fakename>Larissa disse:</span> <span class=faketext>Já tava de saco cheio de tantas
-                        promessas
-                        que escutei sobre emagrecimento, eu sempre tentava mas
-                        não funcionava. Comecei a ver o vídeo desacreditando de
-                        tudo o que você tava falando, mas resolvi seguir suas
-                        dicas e agora parece que sou outra pessoa, muito
-                        obrigada mesmo, minha vida agora é outra! Perdi 17 kilos
-                        rapidinho!! 😊</span><br>
-                      <span class=fakecurtir>Compartilhar · </span> <span class=fakelike>11</span> <span
-                        class=fakeheart>11</span>
-                      <span class=fakeuau>5</span> <span class=fakedata>· enviado
-                        dia <span class=datanow>20/03/2022
-                          18:02:51</span></span>
-                    </div>
-                  </div>
-                  <div class="fakerow3 fakerow display_none clearboth"
-                    style="background-color:rgb(246,247,249);display:block;transition:all 1.5s ease 0s">
-                    <div class=fakephoto><img
-                        src="data:image/jpeg;base64,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"
-                        class=redondo></div>
-                    <div class=fakeright>
-                      <span class=fakename>Neusa disse:</span> <span class=faketext>
-                        <div>
-                          <div class=comentario-c>
-                            Depois da gravidez meu corpo ficou feio, ganhei
-                            muito peso. Nunca tinha conseguido emagrecer,
-                            quando ia fazer dieta sempre acabava me
-                            restringindo e deixando de comer o que eu
-                            gostava, e sempre acontecia a mesma coisa... EU
-                            DESISTIA!&nbsp; Essa última dica que voocê deu
-                            no final do video FUNCIONOU muiiito beem, a
-                            parte boa é que não precisa cortar NADA da nossa
-                            alimentação. Obrigadaa! 🙏
-                          </div>
-                        </div>
-                      </span><br>
-                      <span class=fakecurtir>Compartilhar · </span> <span class=fakelike>22</span> <span
-                        class=fakeheart>14</span>
-                      <span class=fakeuau>7</span> <span class=fakedata>· enviado
-                        dia <span class=datanow>20/03/2022
-                          18:03:01</span></span>
-                    </div>
-                  </div>
-                  <div class="fakerow4 fakerow display_none clearboth"
-                    style="background-color:rgb(246,247,249);display:block;transition:all 1.5s ease 0s">
-                    <div class=fakephoto><img
-                        src="data:image/jpeg;base64,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"
-                        class=redondo></div>
-                    <div class=fakeright>
-                      <span class=fakename>Danielli disse:</span> <span class=faketext>Minha saúde sempre foi péssima,
-                        desde
-                        pequena era gorda e sofria buling no colégio... Quando
-                        virei adulta nada mudou, ficava girando em circulos
-                        sempre indo de uma dieta pra outra, de um exercício pra
-                        outro, meu médico falou que eu já tava pré-diabetica e
-                        tinha que fazer algo pra mudar isso. Ainda bem que achei
-                        esse vídeo e resolvi seguir as dicas, depois de 19 dias
-                        perdi 7 quilos 😃 Vou ao médido agora pra ver como tão
-                        meus exames e volto aqui pra te falar,
-                        valeu!!!</span><br>
-                      <span class=fakecurtir>Compartilhar · </span> <span class=fakelike>7</span> <span
-                        class=fakeheart>8</span>
-                      <span class=fakeuau>2</span> <span class=fakedata>· enviado
-                        dia <span class=datanow>20/03/2022
-                          18:03:26</span></span>
-                    </div>
-                  </div>
-                  <div class="fakerow5 fakerow display_none clearboth"
-                    style="background-color:rgb(246,247,249);display:block;transition:all 1.5s ease 0s">
-                    <div class=fakephoto><img
-                        src="data:image/jpeg;base64,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"
-                        class=redondo></div>
-                    <div class=fakeright>
-                      <span class=fakename>Juliana disse:</span> <span class=faketext>Tô de cara com esse programa, n
-                        sabia
-                        que
-                        realmente ia funcionar, eu to naqueles 7 dias que vc
-                        falou e adivinha só, perdi 2KG em 6 dias!!</span><br>
-                      <span class=fakecurtir>Compartilhar · </span> <span class=fakelike>30</span> <span
-                        class=fakeheart>8</span>
-                      <span class=fakeuau>10</span> <span class=fakedata>· enviado
-                        dia <span class=datanow>20/03/2022
-                          18:03:57</span></span>
-                    </div>
-                  </div>
-                  <div class="fakerow6 fakerow display_none clearboth"
-                    style="background-color:rgb(246,247,249);display:block;transition:all 1.5s ease 0s">
-                    <div class=fakephoto><img
-                        src="data:image/jpeg;base64,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"
-                        class=redondo></div>
-                    <div class=fakeright>
-                      <span class=fakename>Camila Silva disse:</span> <span class=faketext>Três amigas já vieram me
-                        perguntar
-                        o que
-                        eu fiz pra emagrecer tão rápido... Eu quero te agradecer
-                        porque minha vida mudou completamente depois de aplicar
-                        as dicas desse video, aquela dica do final do video me
-                        fez emagrecer muito rápido...</span><br>
-                      <span class=fakecurtir>Compartilhar · </span> <span class=fakelike>50</span> <span
-                        class=fakeheart>37</span>
-                      <span class=fakeuau>24</span> <span class=fakedata>· enviado
-                        dia <span class=datanow>20/03/2022
-                          18:04:35</span></span>
-                    </div>
-                  </div>
-                  <div class="fakerow7 fakerow display_none clearboth"
-                    style="background-color:rgb(246,247,249);display:block;transition:all 1.5s ease 0s">
-                    <div class=fakephoto><img
-                        src="data:image/jpeg;base64,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"
-                        class=redondo></div>
-                    <div class=fakeright>
-                      <span class=fakename>Cristiane disse:</span> <span class=faketext>Ainda bem que apareceu esse
-                        video para
-                        mim, eu precisava de emagrecer urgentemente, finlmente
-                        achei o video que explica o jeito certo pra emagrecer.
-                        Vou recomendar pra todas as minhas amigas, sou muito
-                        grata! 👍&nbsp;👍</span><br>
-                      <span class=fakecurtir>Compartilhar · </span> <span class=fakelike>22</span> <span
-                        class=fakeheart>13</span>
-                      <span class=fakeuau>19</span> <span class=fakedata>· enviado
-                        dia <span class=datanow>20/03/2022
-                          18:05:04</span></span>
-                    </div>
-                  </div>
-                  <div class="fakerow8 fakerow display_none clearboth"
-                    style="background-color:rgb(246,247,249);display:block;transition:all 1.5s ease 0s">
-                    <div class=fakephoto><img
-                        src=data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAcHBwcIBwgJCQgMDAsMDBEQDg4QERoSFBIUEhonGB0YGB0YJyMqIiAiKiM+MSsrMT5IPDk8SFdOTldtaG2Pj8ABBwcHBwgHCAkJCAwMCwwMERAODhARGhIUEhQSGicYHRgYHRgnIyoiICIqIz4xKysxPkg8OTxIV05OV21obY+PwP/CABEIAGQAZAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAgMEBgcBCAD/2gAIAQEAAAAAF2GzsPko5MAKG8rL+iyFiVWsuKj0MZHf0ayrC3eqnfuUTL5BgxoimLUMivRmcGYt8fY5iOxVupB4PKtA2yaSRZe4JRXMpKs1pj0KQjKWQiYyJm0hwZbN5lJnpynPzEahram2j0KSYBUukynco79PftvodohXc0XAx1a35Ctm1UjHxgRSKuh51xZf0Jcaz5/ljKgy4uS/JtuuPYsDf//EABoBAAEFAQAAAAAAAAAAAAAAAAMAAQIEBQb/2gAIAQIQAAAA1BhZq4tbMdRZ+h51PB59BRoqvNaExZqJI5Z59SwQrmbKKv/EABoBAAIDAQEAAAAAAAAAAAAAAAIDAAEEBQb/2gAIAQMQAAAAzjrXeg+b0AlvDgehAW0OWdIVQWZb0VF6FJ0QY6pnIy//xAA1EAACAQMDAgQFAgMJAAAAAAABAgMABBEFEiExQQYTUWEUIjJCgXGRJDNSEBVicpKhscHS/9oACAEBAAE/ANW1SC92KkMu3uMhS2PXrWgPqgshHDNbWsK5Kb1aRqj+ImAWHxHB5vdTbkCpbbW4yGYW05/wHDH98VaeKIrRvJuo2iarvxXZRsiKJXZh2HAHuainvdQJaONYU7O/Of0FHSLV4lNxdzyeu0hB+wq9XSIZQ8dqsrxkcOC3StSGnag8EkMQtvaIbefehqN5YyyRmU/Mrd8gjtU05u7eVmIIwMfpV3aB5Q2TyoqW0W2v5FxuSUHHtzyK8PWUV5oMeOHjd0zWjaNBZXUst0C28HYx6Kaubadn6gcDof8AevE+m/wFnLkmXzhGGPUhh3qXwxdx6cJhKWYKW246irGJJ7WB4zhTEtSKFtvLQBG4+brUGmwwiUvh3f24FTaRbBSyxgN614htmhvbePB4jJP4q0dfJYZ9RipkCvhScAVdYSRZHHQ5FeGEEVhOo+lpA6nsQw60kHmRkHoTUemozgsT1rW4ku9X0jTEGRETPN7dhTQRvEUIGMVZQvY3clky4TJeFvXPVaCBieK+GBPK0YF9K1K1TUbnULlMFIl8hD7ry2KdnhmZQeF3F6jdZEByPSpYhIoBHavCN1drPdWIkQgDciSA4BzzgjkVC19ChAslf02zf+lFTT606Fbe0ghY/fI+/H4FaPpfwkrvLMZp5DmSVup/s1C0+IUYUEgVbfEhCEnDkcYlXkfkYNSvqOQIxbBfcMTTWl3OxM18wTP8uFRH+7cmr2KCCzMccaoighVA4FasFMssaMMtMSw9RUKq0YPNIMjhuaguRaanHdqfoYbvcEc1b3CSRo6EFSAQaLluBii/klVKN/mxTXwQ846UNX3SBEhJB+6vLdJXlxgPjK0JVI6immUd61WbNrI2egNXIDXFzKWH3ge1WcDvbRv/AFDNKzIhCgc1dQyrEzqoOclhmvBmts4fTZziWIFo891q2Zi9bsjtUkSsVyueaSNE5UAVKvyktwKZMtlGrY4PzV4kuo7eyCMeZHAx7Dk1qFmglaNW6sSuPuXrVpGVt4wvyjHSpdVgQEICxBIrVLuV7q3nYkLjGAeBVlqM0F0LiBsSRMCprQ9at9UsY7mEgPjDr/S1XEl2AgW4VA2eStBNRGSjE8dd1JY3jfzpQi9znJqO1tGYoJZJh925jtoKsK4C8VNcKoLMQABWra6NV1O5dD/DQr5UXo3PLVta6vIup2KNw9xVxdtHKyI5O3gnHevisTM7EhXPHGaupyyISMKDxQl8qTzV5Rj8wrQNbudKuvNgOUON6dmFaXqdjrVkJIGDL96Hqp9DRtLqM4hmIX0poL2Th3Jq2t/KUcVdTJHGSzV4i1qa7SWGAlYACHbu59BVqDHBcMSAeOPUmoJBaRlMk3EmHc91z0FeXICw2jrRlYNlWwMnjtXxTMuxgKiYBmjb6W6VaysjGNj06VoGvXGjagtxGSUPEqdmWtN1uw1O1We2mDKRyO6n0IoXKAHkU96CdqKSa1OCZ4ZGcnoeKvtM2WwCjjbxU8AVo4yMbGBb3LVp1i91MzMPmYkfmpJBG2zyslRg+xHGKZsk49aY5UGnOVVqhPmKGzhh3p5cEeteEtc/urUEaQ4hmIV6RIJYQ6KCGGRWnxBZpAR3q5gDjb2q7sZVhCBC4+3HUCmt1OrXrMuED+W6HqpUValI4zsbJMgx6qVI/wCRV483xU/khSu45Pqe5pzhifc0GyhpcFcE9atiVBGDUrhlWo33IR7V4E8Tnyl066k94mNWzDfkUWzip3hjUs7hVAPJOBWoXllDc6ncrKCZpS+B/pWmLWMMrPjzmUFE9z0zS30+X3Md247v1pup/U0rdKDArUchBAzQLNgDsDUTEdqtLqS2eGdeqNyPavDetQ3cESsfmK96Myeo/FeJpon0m7VnJO3on/Zpt0U+C30MW5NC8WS9iVnLYPLevvV7bwmclwu4gE03VqFDpSk7lpCd34NR0CcuO2K8MalfpI8K3cvlp9K7jgVol7cXE3lyvvVYwcGvFjlNJCrwGnjU1Kiu53D6pwp/Sldjfnt8zdKkYuQW9K//xAAkEQACAgIBBQACAwAAAAAAAAABEQACAyExBBASQVIiM0Jiwf/aAAgBAgEBPwDNlqKBgJiWvT0QlDTp/wASf5Hhw2FShrcOSlUm/RmUggFI8xn4nWYTQHfM39hS1gUBsVhPltozXuwjdtdurqbBJhS+M0uRBPXC7VG4h8mXzeQXqZ8IzVQ1YcSlhV1sACJbIFzuGH2Yv7QXK5lLFidTjFx5AfkI6o6guyGYmhHX6jlbIguC251WPxuwNWg8jwISTEIeR2EyTL+4Qf52/8QAJhEAAQMDBAEEAwAAAAAAAAAAAQACEQMhMQQQEmFBEyAzUSJScf/aAAgBAwEBPwCkzwJwgKoeIEoGrB6Tg8x5tlN5HOExmT4XJaKsKnERcZCPTSnjjH3koYkIA/qhZgVloSGmeUEnC/FzQVY5CkDAQhONtmaWjRBLGX+ymPLDJwVTczgLgJ7gQbk/ywTQulPSICe0QVRcWkDwdhZcoHe72Er0yBhDAJVlEKR7NR8a0/xjf//Z
-                        class=redondo></div>
-                    <div class=fakeright>
-                      <span class=fakename>Maria Carolina disse:</span> <span class=faketext>Gente, alguém me ajuda por
-                        favor,
-                        depois
-                        que fiquei grávida eu engordei muito, alguém que já fez
-                        e testou pode me dizer se isso funciona mesmo?
-                        😕</span><br>
-                      <span class=fakecurtir>Compartilhar · </span> <span class=fakelike>16</span> <span
-                        class=fakeheart>2</span>
-                      <span class=fakeuau>3</span> <span class=fakedata>· enviado
-                        dia <span class=datanow>20/03/2022
-                          18:05:32</span></span>
-                    </div>
-                  </div>
-                  <div class="fakerow9 fakerow display_none indentar"
-                    style="background-color:rgb(246,247,249);display:block;transition:all 1.5s ease 0s">
-                    <div class=fakephoto><img
-                        src="data:image/jpeg;base64,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"
-                        class=redondo></div>
-                    <div class=fakeright>
-                      <span class=fakename>Daniela disse:</span> <span class=faketext>Maria, eu pensava a mesma coisa.
-                        Tava
-                        tentano emagrecer faz 3 anos, sempre seguindo aquelas
-                        dietas extramemente restritivas, mas nunca conseguia
-                        emagrecer. Meu marido até zombava de mim pq eu tentava
-                        mas nunca conseguia. Esse programa foi a última
-                        tentativa e deu certo demais. Pode testar vc vai ver
-                        como funciona</span><br>
-                      <span class=fakecurtir>Compartilhar · </span> <span class=fakelike> 29</span> <span
-                        class=fakeheart>34</span> <span class=fakeuau>17</span>
-                      <span class=fakedata>· enviado dia <span class=datanow>20/03/2022 18:05:57</span></span>
-                    </div>
-                  </div>
-                  <div class="fakerow10 fakerow display_none indentar"
-                    style="background-color:rgb(246,247,249);display:block;transition:all 1.5s ease 0s">
-                    <div class=fakephoto><img
-                        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAcHBwcIBwgJCQgMDAsMDBEQDg4QERoSFBIUEhonGB0YGB0YJyMqIiAiKiM+MSsrMT5IPDk8SFdOTldtaG2Pj8ABBwcHBwgHCAkJCAwMCwwMERAODhARGhIUEhQSGicYHRgYHRgnIyoiICIqIz4xKysxPkg8OTxIV05OV21obY+PwP/CABEIAGQAZAMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAGAAQFBwECAwj/2gAIAQEAAAAApXCd6debfCSSU+cBbOTYwaSSV1znObBQSCZpJOLpIiWVDqVhobOFs6sPpaU8FjtQMcrfVzOEtpSewnRsdjrrzUu7vx3ygK9UkMjTSX587eKdgolNXIh58iiGSsx4+md+zaCKa/oG3Lfct2GzEHK95rfyX6S12DzDAPgs7vyjyl6OBBWxJXUPzNcnhh55vXzz6DlVVscw6Njaf//EABkBAAIDAQAAAAAAAAAAAAAAAAIDAAEEBf/aAAgBAhAAAAA13ZSTnp07LkyZj6MIa5jYHRDnLIFs1gurXHbMBuHN/8QAGQEAAgMBAAAAAAAAAAAAAAAAAwQAAQIF/9oACAEDEAAAANkuhyaZYElUtzdJSZ304tpO3SD0XC9mVKyCJP8AMI6f/8QAOhAAAgEDAgQEAwQHCQAAAAAAAQIDAAQRBSEGEjFBEyJRcRAjYTJSgZEHFBUWMDNiIEJjkqGxwcLi/9oACAEBAAE/AGwSSB8MGobK4mXnVDy+tFAjEGlgWbaPPN6U9tKmSV2+lH+BoOlC+nd5AfBiALf1E9Fq9s/AtmURgfL3+g9Kl09yBhTzEZxilsrpHDhWPKwzUsdvI4BmMbkDPMMA/TNXenPHCZFwQDvj+Bwtpy22lQZADECV/c1PY+OoRhuQGPtWm6GZGkdsKjn8SKOkWsKkJbDp1xvXEOgpcoSq4ZMlfSrCcrNNbSHIQHPt0NX9v4Fy6D7PUfD0/sWsQkuYEbZS4z7VY3pEEpIHKoG3+wqPUIkhaRsHLFfyFaSiGKMEdhV3DzIcCryILzlgMVrtsbHWUuI/5cpOffuK1Iq8UTL1Riv4dvgPjgGrQFriJR94VFeKtoqg4Y+dh7NVlemVY4mbrKfwBNWuq20JXAlfYDyxMabUka1eRR23q8F89ygWF3L7mXqkIO4AXvXEemRvpiyXigMhDvy0zErKpPUA/l8BXKcZ2pS4AAIx8LNwtwlT3Aj8Eg7BQDXCEUE+oMrkZiIdatNIuZLxJnu5HVebKZIU56bdsVMCk7w4/mx8rfUjvWnXaKjxXB3Q4rimD9Ys7pM5V4nxVnYXd9crb2sZllfIValR45HR1IdCQw9CKGB2pEVgCRXhH71Gozh1P1FXb5ABPetB1B7S9DmRQioS2TjI26eprSr8qhcNvipBJJNG/OWcYJq+YWksk8hVGcDyA1rrpa6VdzyED5bBV+rDGK4KMUOsCORihmidEatS4MnuNSmNldJIjyFmY9EzUH6OYxCDcXr859FwK1vhy50j5mTJDnc91+NtoOq3NnFeQQB4pZXiTDgEsg5jtRRnJVgQQRkehqy0+7v7pba1iLyE/gB6k9hUurWeg3trptz5cQRnn6jPQg140N0omglYDo2G2PvU1ssgBWMlsDLZJz+dcQW19q95b6dbg+FFL8yXflBAycmtP4RsLXw3mjLsq9+v/nNWenRLDztEB91ANlpDby5V1BzkVrdirQyxSplMFHHqp6GtQtJdNu5bZ1LBTlW9VPQ/Cy1eeDSxbq2RHcB0TvlwQa0bRLq7dp50ZIyc8v8AeatKsr2zRFtYLeBMb4XJPuW3Nfulpl9PJLdLFNO5OXJbnzVtw1cWLIbeXkVBgZOcj6mnikMBE9ySB2jGAPdqtwiQkFeSLIMSd3PrSqIwZLhlXJyAT9kVca9EVMduDIMHJUelQ3V5BLHJIwIJAartFuYFlHYb1e6UfHbEQYevw4B0GGaFZ2jDSvvk9lqKwijYD5XShbMOsS4/pUU/gISHtObf7lTSwFHZ4rlUQ9iX/JdzQxNEjx2r+EDhWnflBPtWpcRW2nBQrrdXWCAAfJFUN/d31+Gu5jJzhvLnCjvstcyxxD2pSk8JX1BrSrotCof6q/0IqexcyEqNqAJIAG9cKwtY6QQPtYAz7AVfcUy2VykAtDKzFQTnYFumK/enUiX5REqqWyTnt3q+451y7ukt9NaM7gZEQPMa0+91mO2AvLlJZGGW+WoAq9uJZoZWbLkRuFGMAbdhT2t0sSMbeTkIJUgelWLhbu2b/EA/zbVdI9xMLdJOXykk1YPhOXupII9qs5hDfPET5ZlDj6EbGkndFC1olt+s6nbqRlVPO3stWKiPTowfQmheQfttjPNHHEtwXmeQ4VUQL/rtsK1HUrjXdRlttMjcWryk46ZHq3oK0Lh230+Hn2eUjzvRdDIVFaneRWNqDgGV9kH/AGq31fUrMkxzt585755uuxqXX4mCtLpkBkRgQwHLWk3UN3NPMh2Kpj/kVNdRwajy5A8UdPqKunKrBcId4pBn2bY1DKskStnqK4NjRrqZiN+VaPlsxj7griSaT9pTx58vOWrg7SNPtuF9NaO3Xmuog8zHcsauLaKJCqAgVZaNZH5rc7N9Wq9nkub2d5MZ5+UAbABak6j3FTfy5K4au5otXaBW+XIvmFcX3E0U0Do5DLIMGtOle40stLglojn8qsJnNpHv2r//xAAlEQACAgEDBAMAAwAAAAAAAAABAgARAxIxQQQhM1EQIHEiMmH/2gAIAQIBAT8Aj5ApAgYHmBvq5JJM0u6FtU6V2ZSpg2+TMifxJhIRBpJ77xHtsewli6+jVRvaFLYam0odjViFMIyLockDuSRQjZSXLY/UXqcqsCWtTvBkSZcoxJqq+AI+XJk3Hb1A5qtR/IB/h2juUtRzFPE1NOuf+ixMJKrRr2ZlyJ2VAKHPJmO6uOpsORsIV7/olt7nV+WHxL+ShrHacweN4/hxfH//xAAnEQACAgECBQQDAQAAAAAAAAABAgARAxIhBBMxM0EQUWFxIGJygf/aAAgBAwEBPwCImqFCPEKfigqoXVHC6ZxKqCGH+wij6jqJjbcfcC8zIdQG0ZCA9iG/W6g1WCPMx6SaJAboZmACUpJJFTSoQK48zlY2BULpM0NMeLmtV0BuTF5eOgDfyZ5sAR3oddrmJFzLr+ekyCqI8TUnvOFXYk/UORBkYFdXsPmYsR3Z+vsOgnFHGWVfIE4ZwEZFa7Mu1IlfrOH7Sx+6f6gJ0HeNMPdT7i91vT//2Q=="
-                        class=redondo></div>
-                    <div class=fakeright>
-                      <span class=fakename>Janice disse:</span> <span class=faketext>Vai sem medo minha flor, funciona.
-                        No meu
-                        caso eu perdi 6 quilos em 2 semanas</span><br>
-                      <span class=fakecurtir>Compartilhar · </span> <span class=fakelike>25</span> <span
-                        class=fakeheart>12</span>
-                      <span class=fakeuau>5</span> <span class=fakedata>· enviado
-                        dia <span class=datanow>20/03/2022
-                          18:06:40</span></span>
-                    </div>
-                  </div>
-                  <div class="fakerow12 fakerow display_none clearboth"
-                    style="background-color:rgb(246,247,249);display:block;transition:all 1.5s ease 0s">
-                    <div class=fakephoto><img
-                        src=data:image/jpeg;base64,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
-                        class=redondo></div>
-                    <div class=fakeright>
-                      <span class=fakename>Helena disse:</span> <span class=faketext>Gente, eu achava que era mentira,
-                        mas ta
-                        tudo dando certo... eu me sentia mt mal com o meu corpo,
-                        não conseguia nem me olhar no espelho direito, sem falar
-                        das zoações dos parentes e "amigas". Com esse programa,
-                        consegui o impossível, mt obrigada pelo video!
-                        🙂</span><br>
-                      <span class=fakecurtir>Compartilhar · </span> <span class=fakelike> 57</span> <span
-                        class=fakeheart>70</span> <span class=fakeuau>38</span>
-                      <span class=fakedata>· enviado dia <span class=datanow>20/03/2022 18:08:19</span></span>
-                    </div>
-                  </div>
-                  <div class="fakerow13 fakerow display_none clearboth"
-                    style="background-color:rgb(246,247,249);display:block;transition:all 1.5s ease 0s">
-                    <div class=fakephoto><img
-                        src=data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYGBgYHBwYJCgkKCQ0MCwsMDRQODw4PDhQfExYTExYTHxshGxkbIRsxJiIiJjE4Ly0vOEQ9PURWUVZwcJYBBgYGBgYGBgcHBgkKCQoJDQwLCwwNFA4PDg8OFB8TFhMTFhMfGyEbGRshGzEmIiImMTgvLS84RD09RFZRVnBwlv/CABEIADIAMgMBEQACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAHAgMEBQYIAQD/2gAIAQEAAAAADtdUqlWDjXlKsiWWbzTkRHSeZosZJIYrNouczJKmDMnk+TzPqfaLekwMIQj64IXN3//EABoBAAMAAwEAAAAAAAAAAAAAAAIDBAABBgX/2gAIAQIQAAAAbkW2ubM2PCFwGnQkw1SOW8tJRQlubgU8b+g5vxaSg6PsP//EABsBAAEFAQEAAAAAAAAAAAAAAAUBAgMEBgAH/9oACAEDEAAAAJ6reRr7UDOmlruRGk46qTkxZMW+qWuBTQte00wkjlxWp2YyA551mv/EADMQAAIBAwIFAgMFCQAAAAAAAAECAwAEEQUSBhMhMUEiURAUkRUXIzJhJSYzNkNxdIGS/9oACAEBAAE/AH/hRt+gq/VnY+wyR8B+U+cmmluYFWNZnUd9gJqLWtT+WuIHuXeKSHYVbqAFr7bkH9AfU0bj8NEC9qmIYtn3ojqRUbBWUkdAc1wRbaLqOpK+qpzAoAEW0sGLHua460DQdMf9mvHHIHzJEp7Bqt9Ckkggk5J9Uat9RXmpDnJ/WnhZ3zGhOBk4HatjYMYXLZBzXC9rp2m8PWdvBZhmmy7TBd7Bj331xwmmyaDzIoybl7worlcHGcmtP4jgt7CyhYy5jt40Pp8qoFaaF1K+htZIVUyb9rL0OQpIFadp0WrTQpAswUt6y4A+mK4h4Y03StAPy7EXDpk1BEEvYDcMOUQFYn+3sK05otA0KF4bxJJYbdmlyd28nLEbTUja7xRqUgSOS4lIUskY2xwDvgVNpslvLLCbiLMblD1PdTitMuxZ6nYXJJAiuI3bHfAYZxXDUEcG+VRiMMSue+M9K4l1AXp2C62W8dvy3AAJMrt4zU0ItNQtuXLvUTqzOD5J+tXelS2Gjxm4m5nMiJBPQncTjua4Y4etLDh+DYmJiu9m87q/G8pk+TtHWrLh6ePk3E2Cc55ftRZ3KxhtijGQppoIZ0f5iHcYnIyvQgeDWnw2UeplRbyNHc79pkGSu3qKlvZZ1Cy4cdsHsQBgCra9/diaVTgpbsf9gV95PEPtbf8AAq4J5Y6+aj/NHTEie6wSPUlaeS92+45wnTPXHf4WH8oXP+O/w//EAC0RAAICAQICCQMFAAAAAAAAAAECABEDITEEMhASExQiQWFxgQUVUTNCUpGx/9oACAECAQE/AMZvWcV1iddh0eU67ooUOR/kTispUqxud+P4gJBjtZqEUZsY5sXEDc3QCSY3NHZQdfOekAJJszxjSdm8xZUZqYTNlVjSCjMprsr3uO5AvaomZCau/SWK9p3gxKRrnMxP5MyvbAJrW/pADXi1ncGGQ5C9DeptpPiE37TiM4QFUMwOwYMBp5+s4hicXWUkURPuWUqE0mMdoyA7NUH0zh6G/wDcy8sf93vMWwnFfpj4n8fecNz4fjo//8QALREAAgECAwYFBAMAAAAAAAAAAQIAAxEEEiEFEBMxQVEUIjIzYQYVcYFCkbH/2gAIAQMBAT8AceQQ8t9oVW9+omZpxPJlh1G+goN7i5ldUyaaETIu46CLSd75EJtzliTaKgGTJ0HKYgDKdNTLiOSF0Ew1EuMz6CYdSyYtUGUCn/cSkOKg76R8HXRbtSNrXvAHZ21uJwV7wksMveUgUpqspUAlN3quUVhoO8IAqIENh/k++I+F8Nw3Z7Zbx3swQcrS/wASjhLEO2p7TZ+z+KeJVFlvMfhlek6OfN/AdgJsyjSGLyPSzCoCLnpaD6fwyVDUVj1NpiAaVWp8XtPG1viYf3E/MT0r+pjfXW/ImzQPGVdIeUx/v1/3u//Z
-                        class=redondo></div>
-                    <div class=fakeright>
-                      <span class=fakename>Michele disse:</span> <span class=faketext>Já tava desacreditato depois de
-                        tantas
-                        promessas falsas que escutei sobre emagrecimento, mas
-                        esse programa é diferenciado, essa redefinição hormonal
-                        é realmente poderosa.</span><br>
-                      <span class=fakecurtir>Compartilhar · </span> <span class=fakelike> 11</span> <span
-                        class=fakeheart>3</span>
-                      <span class=fakeuau>1</span> <span class=fakedata>· enviado
-                        dia <span class=datanow>20/03/2022
-                          18:08:48</span></span>
-                    </div>
-                  </div>
-                  <div class="fakerow display_none" id=fakecomments_escrevendo style=display:none>
-                  </div>
-                  <div class=fakerow>
-                    <span class=fakemaisantigos>Ver comentários mais Recentes</span>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-            <div style="margin-top: 15px;font-size: 13px;">
-              <p>Em breve retiraremos o vídeo do ar! Aproveite e veja AGORA!</p>
-            </div>
-
-          
-
           </div>
-          <!-- BOTÂO FIM -->
-
-          <div class="facebbok" style="font-size: 12px;margin-top: 80px;">
-            <strong><span style="color: #fff;">Este</span><span style="color: #fff;"> site não é afiliado ao
-                Facebook ou a qualquer entidade do Facebook.</span></strong> Depois que você sair do Facebook, a
-            responsabilidade não é deles e sim do nosso site. Fazemos todos os esforços para indicar claramente e
-            mostrar todas as provas do produto e usamos resultados reais.
-          </div>
-
-            <!-- Termos de Uso e Política de Privacidade -->
-            <div class="text-white mt-4" style="text-align: center;font-family: 'Roboto', Sans-serif;font-size: 11px;font-weight: 300;letter-spacing: 0.5px;"><a href="termos.html" class="text-white">Termos de
-              Uso</a> | <a href="privacidade.html" class="text-white">Política de Privacidade</a></div>
-
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <script type="text/javascript">
-    setTimeout(() => { document.getElementById("cta1").classList.remove("d-none") }, 1706000); // temporização da Call to Action (em milissegundos 1706000)
+    <script type="text/javascript">
+      setTimeout(() => { document.getElementById("cta1").classList.remove("d-none") }, 10000); // temporização da Call to Action (em milissegundos 1706000)
+    </script>
+  
+  <!-- Global site tag (gtag.js) - Google Ads: 10814742800 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10814742800"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'AW-10814742800');
+  </script>
+  
+  
+  <!-- Event snippet for Protocolo Zero Barriga conversion page -->
+  <script>
+    gtag('event', 'conversion', {
+        'send_to': 'AW-10814742800/RdYACNm-gawDEJDC76Qo',
+        'transaction_id': ''
+    });
   </script>
 
-<!-- Global site tag (gtag.js) - Google Ads: 10814742800 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10814742800"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'AW-10814742800');
-</script>
+    <section class="comments py-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="fb-comments" style="margin-top: 5px;">
+              <div class="fb-comments-header">
+                <span>21 comentarios</span>
+              </div>
+              <div class="fb-comments-wrapper" id="2">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m2.jpeg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Valesca Silva</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">Amei vou fazer hoje mesmo pois estou em processo de emagrecimento. Muito obrigada 😘</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>8</likes>
+                        
+                        <date>4 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="3">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m3.jpeg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Vitória Pereira</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">Ele também me ajudou perdi 22kg obrigado, e ajuda até hoje com essas receitas deliciosas</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>9</likes>
+                        
+                        <date>5 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="4">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m4.jpeg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Mariana Martins</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">Esse vídeo mudou minha vida, já são 20 kilos a menos em 4 meses ,agradecida</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>11</likes>
+                        
+                        <date>12 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="5">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m5.jpeg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Juliana Castro</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">Tomei essa vitamina durante 1 mês, acompanhada da dieta de açúcar e carboidratos, perdir 5 quilos, e me sentia bem melhor, faz um ano, agora vou voltar a tomar novamente.</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>15</likes>
+                        
+                        <date>19 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="6">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m6.jpeg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Isabella Lopes</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">Estou feliz, a 7 meses atrás eu estava com 78kg e hoje estou com 54kg até postei a respeito no meu perfil aqui no face o antes e depois 😘😘😘</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>17</likes>
+                        
+                        <date>24 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="7">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m7.jpeg"></td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Roberta Gomes</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">Realmente funciona, minha barriga tem diminuído a cada dia. Obrigada por compartilhar 🥰</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>18</likes>
+                        
+                        <date>26 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="fb-comments-wrapper" id="9">
+                <table class="fb-comments-comment">
+                  <tbody>
+                    <tr>
+                      <td rowspan="3" class="fb-comments-comment-img"><img
+                          src="./assets/img/comentarios/m11.jpeg">
+                      </td>
+                      <td>
+                        <font class="fb-comments-comment-name">
+                          <name>Rafaela Souza</name>
+                        </font>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-text">Emagrece mesmo gente receita testada e aprovada</td>
+                    </tr>
+                    <tr>
+                      <td class="fb-comments-comment-actions">
+                        <like>Curtir</like>
+                        ·
+                        <reply>Responder</reply>
+                        ·
+                        <likes>22</likes>
+                        
+                        <date>39 min</date>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <button class="fb-comments-loadmore" onclick="javascript:loadMore();">Carregar mais 5 comentários</button>
+              <div style="display:none" id="more">
+                <div class="fb-comments-wrapper">
+                  <table class="fb-comments-comment" id="10">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img
+                            src="./assets/img/comentarios/m12.jpeg">
+                        </td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Ana Sofia</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">Maravilhosa melhor de todas fez 7dias tomando e 7 klos já conseguir eliminar tô muito feliz obrigado 😍😍😍</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Curtir</like>
+                          ·
+                          <reply>Responder</reply>
+                          ·
+                          <likes>41</likes>
+                          
+                          <date>1 h</date>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="fb-comments-wrapper" id="11">
+                  <table class="fb-comments-comment">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img
+                            src="./assets/img/comentarios/m15.jpeg">
+                        </td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Laura Flores</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">Eu já estou tomando, já eliminei 7 kls, já fez muita diferença, minhas roupas estavam todas apertadas,  ágora já estão largas, estou num pós operatório de coluna por isso engordei muito 15 Kg, estava sentindo muita dor agora amenizou muito depois que emagreci já consigo andar mais q antes 🙏🙏🙏🙏🙏🙏</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Curtir</like>
+                          ·
+                          <reply>Responder</reply>
+                          ·
+                          <likes>40</likes>
+                          
+                          <date>1 h</date>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="fb-comments-wrapper" id="12">
+                  <table class="fb-comments-comment">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img
+                            src="./assets/img/comentarios/m16.jpeg">
+                        </td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Daniela Costa</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">Muito Obrigada tem me ajudado e muito,Adorei ...Durmo super bem e vendo resultado ..🌹🥰🙋</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Curtir</like>
+                          ·
+                          <reply>Responder</reply>
+                          ·
+                          <likes>47</likes>
+                          
+                          <date>1 h</date>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="fb-comments-wrapper" id="13">
+                  <table class="fb-comments-comment">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img
+                            src="./assets/img/comentarios/m17.jpeg"></td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Juliana Dias</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">Em duas semanas comecei a ver resultados, muito bom</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Curtir</like>
+                          ·
+                          <reply>Responder</reply>
+                          ·
+                          <likes>50</likes>
+                          
+                          <date>1 h</date>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="fb-comments-wrapper">
+                  <table class="fb-comments-comment" id="14">
+                    <tbody>
+                      <tr>
+                        <td rowspan="3" class="fb-comments-comment-img"><img
+                            src="./assets/img/comentarios/m18.jpeg">
+                        </td>
+                        <td>
+                          <font class="fb-comments-comment-name">
+                            <name>Isabelle Correia</name>
+                          </font>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-text">Meu irmão perdeu 6 kl em 15 dias... vou começar hj rsrs</td>
+                      </tr>
+                      <tr>
+                        <td class="fb-comments-comment-actions">
+                          <like>Curtir</like>
+                          ·
+                          <reply>Responder</reply>
+                          ·
+                          <likes>66</likes>
+                          
+                          <date>1 h</date>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <!-- Botão 2 -->
+            <div id="cta2" class="mt-4 d-none">
+              <a href="https://pay.kiwify.com.br/HkrDVPl" class="a-btn" style="text-decoration: none;">
+                <span class="span-btn">QUERO OBTER ACESSO!</span>
+                <span class="span-btn2">(atenção: vagas limitadas)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <footer class="bg-dark py-3 text-center">
+      <div class="text-white"><a href="termos.html" class="text-white">Termos de Uso</a> | <a href="privacidade.html" class="text-white">Política de Privacidade</a></div>
+    </footer>
 
-<!-- Event snippet for Protocolo Zero Barriga conversion page -->
-<script>
-  gtag('event', 'conversion', {
-      'send_to': 'AW-10814742800/RdYACNm-gawDEJDC76Qo',
-      'transaction_id': ''
-  });
-</script>
+    <script type="text/javascript">
+      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 1637000); // temporização da Call to Action (em milissegundos)
+    </script>
 
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <script src="./assets/js/com.js"></script>
-</body>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./assets/js/com.js"></script>
+  </body>
 </html>
